@@ -1,14 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 
 public class Gun : MonoBehaviour
 {
-    //events
-    public event EventHandler OnBulletCreated;
-    public event EventHandler OnBulletHitEnemy;
-
     [SerializeField] private float bulletSpeed = 5f;
     [SerializeField] private Transform firePoint;
 
@@ -36,7 +31,7 @@ public class Gun : MonoBehaviour
     }
 
     #region Observer
-    private void BulletTypeUI_OnExplosionChanged(object sender, EventArgs e)
+    private void BulletTypeUI_OnExplosionChanged(object sender, System.EventArgs e)
     {
         isExplosionBullet = !isExplosionBullet;
     }
