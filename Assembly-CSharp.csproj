@@ -59,7 +59,6 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameAssets.cs" />
     <Compile Include="Assets\Scripts\MaterialController.cs" />
-    <Compile Include="Assets\Scripts\Weapons\BulletObjectPool.cs" />
     <Compile Include="Assets\Scripts\Player\WeaponController.cs" />
     <Compile Include="Assets\Scripts\Player\InputReciever.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
